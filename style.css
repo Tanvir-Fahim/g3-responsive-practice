@@ -7,6 +7,12 @@
   font-style: normal;
 }
 
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
  /* Common styles */
 
 
@@ -14,3 +20,78 @@
   header{
     background-color: rgba(255, 144, 14, 0.1);
   }
+
+   /* Navbar */
+
+  .nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 50px 0;
+  }
+
+  .nav ul{
+    display: flex;
+    gap: 40px;
+  }
+
+  .nav ul li{
+    list-style: none;
+  }
+
+  .nav ul li a{
+    text-decoration: none;
+    color: #424242;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .nav h3{
+    font-size: 45px;
+    color: #131313;
+  }
+  
+   /* Banner */
+
+   .banner-container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 45px 0;
+   }
+
+   .banner-content{
+    max-width: 870px;
+    margin: 0 auto;
+    text-align: center;
+   }
+
+   .banner-content h1{
+    font-size: 64px;
+    color: #131313;
+    margin-bottom: 25px;
+   }
+
+   .banner-content p{
+    color: #727272;
+    line-height: 26px;
+    margin-bottom: 32px;
+   }
+
+   .btn{
+    background-color: #FF900E;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 20px 25px;
+    margin-bottom: 50px;
+   }
+
+   .banner-img img{
+    width: 100%;
+   }
+
+   
