@@ -44,12 +44,12 @@
   .nav ul li a{
     text-decoration: none;
     color: #424242;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 500;
   }
 
   .nav h3{
-    font-size: 45px;
+    font-size: 2.81rem;
     color: #131313;
   }
   
@@ -68,7 +68,7 @@
    }
 
    .banner-content h1{
-    font-size: 64px;
+    font-size: 4rem;
     color: #131313;
     margin-bottom: 25px;
    }
@@ -81,7 +81,7 @@
 
    .btn{
     background-color: #FF900E;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 600;
     border: none;
     border-radius: 8px;
@@ -93,5 +93,49 @@
    .banner-img img{
     width: 100%;
    }
+
+    /* Feature section */
+    .feature-container{
+      padding-top: 85px;
+      max-width: 1328px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 80px;
+      margin: 0 auto;
+    }
+
+    .feature-img{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 25px;
+    }
+
+    .feature-content{
+      text-align: left;
+    }
+
+    .feature-content h3{
+      font-size: 2.81rem;
+      margin-bottom: 24px;
+    }
+
+    .feature-content .h3-first{
+      color: #727272;
+      font-weight: 500;
+    }
+
+    .feature-content .h3-2nd{
+      color: #FF900E;
+    }
+
+    .feature-content p{
+      color: #727272;
+      line-height: 26px;
+      margin-bottom: 32px;
+    }
+
+    
+
 
    
